@@ -1,0 +1,132 @@
+/* styles.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1c1c1c;
+    color: #fff;
+}
+
+header {
+    background-color: #111;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo img {
+    width: 150px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+header nav ul li a:hover {
+    color: #00b3b3;
+}
+
+section {
+    padding: 50px 20px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1, h2, h3 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #680188;
+}
+
+.btn-assistir, .btn-comunidade {
+    background-color: #00b3b3;
+    padding: 15px 25px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.btn-assistir:hover, .btn-comunidade:hover {
+    background-color: #710080;
+}
+
+.video-trailer iframe {
+    width: 100%;
+    height: 400px;
+    border-radius: 10px;
+}
+
+.personagens-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.personagem {
+    background-color: #222;
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+    text-align: center;
+}
+
+.personagem img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.episodios-list {
+    list-style: none;
+}
+
+.episodios-list li {
+    margin-bottom: 20px;
+}
+
+.tecnologia-info {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.tecnologia {
+    width: 48%;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #111;
+    color: #fff;
+}
+
+footer p a {
+    color: #8d00a0;
+}
+
+footer p a:hover {
+    color: #009797;
+}
